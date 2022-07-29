@@ -1,0 +1,158 @@
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.topsection {
+  margin-bottom: 30px;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Orbitron";
+  font-weight: 800;
+}
+.logoo-brand {
+  width: 100px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+  justify-content: space-between;
+  flex: 4;
+}
+.list-item {
+  padding: 20px;
+}
+.list-item:hover {
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-button {
+  background-color: transparent;
+  padding: 5px 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  height: 30px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero-pattern {
+  position: relative;
+}
+.patternnew {
+  position: absolute;
+  top: 280px;
+  left: 160px;
+  z-index: -2;
+}
+.checkssquare {
+  height: 300px;
+}
+.heroimagesize {
+  margin-top: 30px;
+  height: 500px;
+}
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-heading {
+  font-family: "Orbitron";
+  font-weight: 800;
+  font-size: 50px;
+}
+.hero-description {
+  width: 450px;
+
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 10px;
+}
+.emailjoin {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  margin-top: 70px;
+}
+.button-email {
+  background-color: transparent;
+  font-family: "Orbitron";
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-right: 5px;
+  font-weight: 600;
+}
+.button-join {
+  background-color: black;
+  color: white;
+  font-family: "Orbitron";
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.contact-heading {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.belowstarcontainer {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+
+  margin-right: 180px;
+  margin-top: 20px;
+}
+
+.star-below-size {
+  margin-top: 20px;
+  height: 30px;
+}
+.contactuscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 80px;
+}
+.icons span img {
+  margin-left: 10px;
+  height: 30px;
+}
+.glode-star {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+
+  margin-bottom: 50px;
+
+  margin-left: 150px;
+}
+.star {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.starglodeee {
+  width: 50px;
+}
